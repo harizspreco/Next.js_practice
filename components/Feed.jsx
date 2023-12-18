@@ -31,6 +31,7 @@ const Feed = () => {
       "/api/prompt",
       {
         headers: {
+          'Cache-Control': 'no-store',
           'Content-Type': 'application/json',
         },
       }
